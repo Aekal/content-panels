@@ -1,25 +1,64 @@
-.accordion {
+section {
   width: 90%;
-  margin: 0 auto; }
-  .accordion .accordion-list {
-    padding: 0;
-    margin: 0;
-    list-style-type: none; }
-  .accordion .accordion-item {
-    color: white; }
-  .accordion .accordion-button {
-    background-color: black;
-    color: white;
-    width: 100%;
-    border: 1px solid gray;
-    border-bottom: none;
-    cursor: pointer;
-    font-size: 16px;
-    padding: 10px 0; }
-  .accordion .accordion-text {
-    display: none;
-    background-color: white;
+  max-width: 800px;
+  margin: 0 auto 50px auto; }
+
+h1 {
+  font-family: 'Volkhov', serif; }
+
+.accordion .accordion-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none; }
+
+.accordion .accordion-item {
+  color: white; }
+
+.accordion .accordion-button {
+  background-color: black;
+  color: white;
+  width: 100%;
+  border: 1px solid gray;
+  border-bottom: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 0; }
+
+.accordion .accordion-text {
+  display: none;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-top: none;
+  padding: 15px;
+  background-color: #f5f5dc; }
+
+.tabs .tab-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
+.tabs .tab-item {
+  display: inline-block; }
+
+.tabs .tab-link {
+  display: block;
+  padding: 5px 15px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border: 1px solid black;
+  border-bottom: none; }
+  .tabs .tab-link.active {
+    background-color: #f5f5dc;
     color: black;
-    border: 1px solid black;
-    border-top: none;
-    padding: 15px; }
+    border: 1px solid #b9b9b9;
+    border-bottom: none; }
+
+.tabs .tab-content {
+  background-color: #f5f5dc;
+  padding: 15px;
+  border: 1px solid #b9b9b9;
+  display: none; }
+  .tabs .tab-content.active {
+    display: block; }
