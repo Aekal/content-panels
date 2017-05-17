@@ -5,6 +5,11 @@ section {
 }
 
 h1 {
+	text-align: center;
+	font-family: 'Volkhov', serif;
+}
+
+h2 {
 	font-family: 'Volkhov', serif;
 }
 
@@ -135,5 +140,41 @@ h1 {
 		&:hover {
 			background-color: #dddddd;
 		}
+	}
+}
+
+.filter {
+	.filter-buttons {
+		margin-bottom: 10px;
+	}
+
+	.filter-btn {
+		margin: 5px;
+		border: 1px solid #29a4ba;
+		background-color: #c1e5ff;
+		padding: 8px;
+		border-radius: 10px;
+		font-size: 14px;
+		cursor: pointer;
+
+		&:hover {
+			background-color: #9fd7ff;
+		}
+
+		&.active {
+			border-color: #197fcb;
+			background-color: #53a4df;
+			color: #ffffff;
+		}
+	}
+
+	.filter-images {
+		text-align: center;
+	}
+
+	.filter-img {
+		padding: 5px;
+		margin: 5px;
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
 	}
 }

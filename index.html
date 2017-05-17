@@ -9,8 +9,9 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+	<h1>Content Panels</h1>
 	<section class="accordion">
-		<h1>Accordion List</h1>
+		<h2>Accordion List</h1>
 		<ul class="accordion-list">
 			<li class="accordion-item">
 				<button class="accordion-button" type="button">List element 1</button>
@@ -27,7 +28,7 @@
 		</ul>
 	</section>
 	<section class="tabs">
-		<h1>Tab Panel</h1>
+		<h2>Tab Panel</h1>
 		<ul class="tab-list">
 			<li class="tab-item"><a href="#tab1" class="tab-link active">Tab 1</a></li>
 			<li class="tab-item"><a href="#tab2" class="tab-link">Tab 2</a></li>
@@ -38,8 +39,20 @@
 		<div id="tab3"class="tab-content">Aperiam illo maxime impedit dignissimos magni delectus quos, nam nesciunt nostrum quae esse expedita id ea assumenda ipsam beatae minima, ipsa aliquid sapiente? Esse quidem dolore, nemo fugiat cum natus.</div>
 	</section>
 	<section class="modal-container">
-		<h1>Modal window</h1>
+		<h2>Modal window</h1>
 		<button type="button" id="modal-btn" class="modal-btn">Show window</button>
+	</section>
+	<section class="filter">
+		<h2>Filtered gallery</h2>
+		<div class="filter-buttons"></div>
+		<div class="filter-images">
+			<img class="filter-img" src="img/fight-club.jpg" data-tags="movie" alt="Fight Club movie">
+			<img class="filter-img" src="img/kings.jpg" data-tags="album" alt="Kings of Leon album">
+			<img class="filter-img" src="img/intouchables.jpg"  data-tags="movie" alt="Intouchables movie">
+			<img class="filter-img" src="img/organek.jpg" data-tags="album" alt="Organek album">
+			<img class="filter-img" src="img/soad.jpg" data-tags="album" alt="System of a Down album">
+			<img class="filter-img" src="img/titanic.jpg" data-tags="movie,album" alt="Titanic movie">
+		</div>
 	</section>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="js/main.js"></script>
